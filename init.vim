@@ -104,6 +104,8 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline#extensions#tabline#fnamemod = ':t'
 let g:airline#extensions#whitespace#enabled = 0
 let g:airline_powerline_fonts = 1
+nnoremap <C-LEFT> :bn<CR>
+nnoremap <C-RIGHT> :bp<CR>
 
 " =+> Code syntax highlight
 let g:javascript_plugin_jsdoc = 1
